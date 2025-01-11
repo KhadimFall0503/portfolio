@@ -11,7 +11,7 @@ function myMenuFunction(){
   // Sélectionne tous les boutons ayant la classe "downloadCVButton"
 document.querySelectorAll('.downloadCVButton').forEach(button => {
     button.addEventListener('click', function() {
-        const cvURL = "assets/cv/KhadimFall_CV.pdf"; // Remplace par le chemin vers ton fichier CV
+        const cvURL = "/Mon Portfolio/assets/cv/Khadimfall_cv"; // Remplace par le chemin vers ton fichier CV
         const link = document.createElement("a");
         link.href = cvURL;
         link.download = "Khadimfall_cv.pdf"; // Remplace par le nom de ton fichier CV
